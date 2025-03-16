@@ -8,6 +8,7 @@
 body {
   background-color: #f4f4f4;
   color: #333;
+  font-size: 16px;
 }
 
 /*header*/
@@ -25,8 +26,14 @@ body {
   padding: 20px 40px;
   /* position: fixed;
   top: 0;
-  left: 0; */
+  left: 0;
+  z-index: 1000; */
   width: 100%;
+}
+
+.header h2 {
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
 }
 
 .nav-bar ul {
@@ -39,13 +46,45 @@ body {
 }
 
 .nav-bar ul li a {
+  font-size: 1.05rem;
   color: #fff;
   text-decoration: none;
   border-bottom: 2px solid transparent;
   transition: border-bottom 0.2s ease-in-out 0.2s;
   font-weight: bold;
+  letter-spacing: 1.5px;
 }
 
 .nav-bar ul li a:hover {
   border-bottom: 2px solid #fff;
+}
+
+/*Presentation card*/
+.card {
+  font-size: 1.5rem;
+  padding: 20px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+}
+
+.card h1 {
+  margin-bottom: 5px;
+}
+
+.card p {
+  margin-bottom: 20px;
+}
+
+.view-btn {
+  padding: 20px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.view-btn a {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
 }
