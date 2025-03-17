@@ -117,6 +117,8 @@ body {
 /*Projects section*/
 .projects-section {
   padding: 20px;
+  background-color: #f8f8f8;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .projects-section h2 {
@@ -126,4 +128,31 @@ body {
   background-color: #222;
   color: #fff;
   padding: 20px;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-around;
+  /* flex-wrap: wrap; */
+  gap: 1em;
+  padding: 20px;
+  background-color: #007bff;
+  overflow: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+.project {
+  scroll-snap-align: start;
+  background-color: aquamarine;
+  padding: 40px;
+  width: 300px;
+  height: 200px;
+  flex-shrink: 0;
+  border-radius: 150px;
+}
+
+.project h3,
+.project p {
+  text-align: center;
+  line-height: 4.3;
 }
