@@ -29,6 +29,7 @@ body {
   left: 0;
   z-index: 1000; */
   width: 100%;
+  margin-bottom:20px;
 }
 
 .header h2 {
@@ -64,6 +65,7 @@ body {
   font-size: 1.5rem;
   padding: 20px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
 }
 
 .card h1 {
@@ -71,7 +73,7 @@ body {
 }
 
 .card p {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .view-btn {
@@ -81,10 +83,28 @@ body {
   border: none;
   border-radius: 15px;
   cursor: pointer;
+  margin-bottom: 30px;
 }
 
 .view-btn a {
   font-size: 1.1rem;
   text-transform: uppercase;
   letter-spacing: 1.1px;
+}
+
+/*About Me Section*/
+.about-me {
+  padding: 20px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+}
+
+.about-me h2 {
+  margin-bottom: 5px;
+  letter-spacing: 1.2px;
+}
+
+.about-me p {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  margin-bottom:30px;
 }
