@@ -1,158 +1,200 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
 body {
-  background-color: #f4f4f4;
-  color: #333;
-  font-size: 16px;
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 16px;
 }
 
 /*header*/
 .main-container {
-  margin: 20px auto;
-  width: 80%;
+    margin: 20px auto;
+    width: 80%;
 }
 
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #222;
-  color: #fff;
-  padding: 20px 40px;
-  /* position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    color: #fff;
+    padding: 20px 40px;
+    /* position: fixed;
   top: 0;
   left: 0;
   z-index: 1000; */
-  width: 100%;
-  margin-bottom: 20px;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 .header h2 {
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
 }
 
 .nav-bar ul {
-  list-style: none;
-  display: flex;
+    list-style: none;
+    display: flex;
 }
 
 .nav-bar ul li {
-  margin-left: 20px;
+    margin-left: 20px;
 }
 
 .nav-bar ul li a {
-  font-size: 1.05rem;
-  color: #fff;
-  text-decoration: none;
-  border-bottom: 2px solid transparent;
-  transition: border-bottom 0.2s ease-in-out 0.2s;
-  font-weight: bold;
-  letter-spacing: 1.5px;
+    font-size: 1.05rem;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s ease-in-out 0.2s;
+    font-weight: bold;
+    letter-spacing: 1.5px;
 }
 
 .nav-bar ul li a:hover {
-  border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #fff;
 }
 
 /*Presentation card*/
 .card {
-  font-size: 1.5rem;
-  padding: 20px;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.05);
-  margin-bottom: 20px;
-  background-color: #f8f8f8;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1.5rem;
+    padding: 20px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+    background-color: #f8f8f8;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .card h1 {
-  margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 .card p {
-  margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .view-btn {
-  padding: 20px 15px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 15px;
-  cursor: pointer;
-  margin-bottom: 30px;
+    padding: 20px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-bottom: 30px;
 }
 
 .view-btn a {
-  font-size: 1.1rem;
-  text-transform: uppercase;
-  letter-spacing: 1.1px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
 }
 
 /*About Me Section*/
 .about-me {
-  padding: 20px;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.05);
-  margin-bottom: 20px;
-  background-color: #f8f8f8;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+    background-color: #f8f8f8;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .about-me h2 {
-  margin-bottom: 5px;
-  letter-spacing: 1.2px;
+    margin-bottom: 5px;
+    letter-spacing: 1.2px;
 }
 
 .about-me p {
-  font-size: 1.3rem;
-  line-height: 1.5;
-  margin-bottom: 30px;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    margin-bottom: 30px;
 }
 
 /*Projects section*/
 .projects-section {
-  padding: 20px;
-  background-color: #f8f8f8;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #f8f8f8;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
 }
 
 .projects-section h2 {
-  font: size 1.6rem;
-  text-align: center;
-  letter-spacing: 1.5px;
-  background-color: #222;
-  color: #fff;
-  padding: 20px;
+    font: size 1.6rem;
+    text-align: center;
+    letter-spacing: 1.5px;
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
 }
 
 .projects {
-  display: flex;
-  justify-content: space-around;
-  /* flex-wrap: wrap; */
-  gap: 1em;
-  padding: 20px;
-  background-color: #007bff;
-  overflow: scroll;
-  scroll-snap-type: x mandatory;
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+    gap: 1em;
+    padding: 20px;
+    background-color: #007bff;
+    overflow: scroll;
+    scroll-snap-type: x mandatory;
 }
 
 .project {
-  scroll-snap-align: start;
-  background-color: aquamarine;
-  padding: 40px;
-  width: 300px;
-  height: 200px;
-  flex-shrink: 0;
-  border-radius: 150px;
+    scroll-snap-align: start;
+    background-color: aquamarine;
+    padding: 40px;
+    width: 300px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 150px;
 }
 
 .project h3,
 .project p {
-  text-align: center;
-  line-height: 4.3;
+    text-align: center;
+    line-height: 4.3;
+}
+
+/*Contact section*/
+
+.section-contact {
+    padding: 30px;
+    background-color: #f8f8f8;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-contact h2 {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+.section-contact a .linkedin {
+    font-size: 2.5rem;
+    color: #0a66c2;
+}
+
+.section-contact a .envelope {
+    font-size: 2.5rem;
+    color: #896c39;
+}
+
+.section-contact a .bitbucket {
+    font-size: 2.5rem;
+    color: #205081;
+}
+
+.section-contact a .github {
+    font-size: 2.5rem;
+    color: #333;
+}
+.my-network {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: #ccc;
+    padding: 40px;
 }
